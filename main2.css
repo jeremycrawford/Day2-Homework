@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto: 100, 300', sans-serif;
+  background-color: white;
+}
+ 
+body * {
+  vertical-align: top;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.header {
+	display: block;
+	width: 100%;
+	padding-right: 0;
+	margin: 0;
+	background-color: gray;
+	background: url('img/bg.png') repeat-x top left;
+	height: 60px;
+}
+
+.avatar {
+	background-image: url('img/profile.png');
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-top: 3px;
+	position: absolute;
+	left: 960px;
+}
+
+.profile h4{
+	color: white;
+	font-weight: 300;
+	font-size: 15px;
+	position: absolute;
+	left: 1017px;
+}
+
+.caret {
+	border-color: #949393 transparent;
+	border-style: solid;
+	border-width: 7px 7px 0 7px;
+	margin-top: 27px;
+	position: absolute;
+	left: 1143px;
+}
+
+/* make EVERYTHING inside the header inline-block*/
+.header .container * {
+	display: inline-block;
+}
+
+.mobber-logo {
+	padding-top: 4px;
+	height: 50px;
+	width: 175px;
+}
+
+.container li {
+	height: 30px;
+	line-height: 24px;
+	padding-top: 2px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-right: 35px;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+}
+
+.subheader .container * {
+	display: inline-block;
+}
+
+.subheader {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.19);
+	height: 85px;
+	position: relative;
+}
+
+.subheader h1{
+	display: block;
+	font-weight: 300;
+	width: 100%;
+	padding-top: 23px;
+	margin: 0;
+	height: 60px;
+	font-size: 29px;
+	color: rgb(65, 65, 65);
+}
+
+.banner .container * {
+	display: inline-block;
+}
+
+.banner {
+	height: 600px;
+	max-width: 100%;
+	background-color: rgb(238, 236, 232);
+	border-bottom: 1px solid gray;
+}
+
+.arenaphoto {
+	margin: 30px 10px 10px 0px;
+}
+
+.square {
+	height: 130px;
+	width: 130px;
+	background-color: rgb(197, 194, 187);
+	margin: 30px 0px 0px 7px;
+	border-bottom: 30px solid rgb(165, 158, 147);
+}
+
+.square h3 {
+	display: block;
+	font-weight: 500;
+	width: 100%;
+	padding: 30px;
+	margin: 0;
+	height: 60px;
+	font-size: 65px;
+	color: white;
+}
+
+.square p {
+	display: block;
+	font-weight: 500;
+	width: 100%;
+	margin: 17px 0px 0px 31px;
+	height: 60px;
+	font-size: 14px;
+	color: rgb(88, 86, 82);
+}
+.squaretwo {
+	height: 130px;
+	width: 130px;
+	background-color: rgb(197, 194, 187);
+	margin: 30px 0px -10px 16px;
+	border-bottom: 30px solid rgb(165, 158, 147);
+}
+
+.squaretwo h3 {
+	display: block;
+	font-weight: 500;
+	width: 100%;
+	padding: 30px;
+	margin: 0px 10px 10px -19px;
+	height: 60px;
+	font-size: 65px;
+	color: white;
+}
+
+.squaretwo p {
+	display: block;
+	font-weight: 500;
+	width: 100%;
+	margin: 7px 0px 0px 6px;
+	height: 60px;
+	font-size: 14px;
+	letter-spacing: -1px;
+	color: rgb(88, 86, 82);

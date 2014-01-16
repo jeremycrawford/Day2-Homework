@@ -10,7 +10,6 @@ body * {
 }
 
 .container {
-  border: 1px solid red;
   width: 960px;
   margin: 0 auto;
   position: relative;
@@ -130,14 +129,95 @@ body * {
 .arena-bar h2 {
 	color: white;
 	margin-left: 18px;
-	margin-top: 9px;
+	margin-top: 10px;
 	font-size: 24px;
 	font-weight: lighter;
 }
 
+.arena-bar img {
+	margin-right: 5px;
+	top: 80px;
+}
 
+.bar-info {
+	position: absolute;
+	top: 18px;
+	right: 25px;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 1px;
+}
 
+.el {
+	display: block;
+	position: relative;
+	top: -20px;
+	height: 35px;
+	left: -8px;
+	width: 147px;
+	background: #f9ce00;
+	}
+	
+.el:before, el:after {
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	}
+	
+.el:before {
+	display: block;
+	left: 0;
+	top: 35px;
+	border-width: 4px;
+	border-color: #f9ce00 #f9ce00 transparent transparent;
+	}
+	
+.el:after {
+	display: none;
+	right: 0;
+	top: 35px;
+	border-width: 4px;
+	border-color: #f9ce00 transparent transparent #f9ce00;
+	}
 
+.left-container {
+  width: 620px;
+  height: 580px;	
+  display: inline-block;
+}
+
+.right-container {
+	margin-left: -6px;
+	width: 330px;
+	height: 580px;	
+	display: inline-block;
+}
+
+.box-one {
+	margin-left: 20px;
+	margin-top: 30px; 
+	width: 140px;
+	height: 152px;
+	background-color: rgb(208, 205, 199);
+	display: inline-block;
+}
+
+.box-two {
+	margin-left: 19px;
+	margin-top: 30px; 
+	width: 140px;
+	height: 152px;
+	background-color: rgb(208, 205, 199);
+	display: inline-block;
+}
+
+.caption {
+	margin-top: -60px;
+	width: 620px;
+	height: 84px;
+	background-color: rgb(208, 205, 199);
+}
 
 
 

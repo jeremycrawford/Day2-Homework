@@ -1,4 +1,5 @@
-RE-CREATING A WEBSITE WITH HTML & CSS
+RECREATING A WEBSITE 
+WITH HTML & CSS
 =============
 
 Mobber Website
